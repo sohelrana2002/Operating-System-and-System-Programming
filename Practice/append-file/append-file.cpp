@@ -1,3 +1,5 @@
+// write a program to copy a file named "file.txt" from dir1 to dir2
+
 #include <iostream>
 #include <fstream>
 using namespace std;
