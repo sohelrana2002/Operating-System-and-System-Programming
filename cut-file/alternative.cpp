@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    string sourcePath = "./text2.txt";
-    string targetPath = "./hi.txt";
+    string sourcePath = "./orginal.txt";
+    string targetPath = "./copy.txt";
 
     if (rename(sourcePath.c_str(), targetPath.c_str()) == 0)
     {
